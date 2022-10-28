@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+sklearn = "*"
+python-dotenv = "*"
+matplotlib = "*"
+seaborn = "*"
+tqdm = "*"
+implicit = "*"
+metaflow = ">=2.7"
+
+[dev-packages]
+pytest = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.9"
