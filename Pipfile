@@ -13,6 +13,7 @@ seaborn = "*"
 tqdm = "*"
 implicit = "*"
 metaflow = ">=2.7"
+recommenders = ">=1.1.1"
 
 [dev-packages]
 pytest = "*"
